@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct ContentView: View {
     @State var text: String = "hello"
     var body: some View {
@@ -14,6 +15,7 @@ struct ContentView: View {
     }
 }
 
+@available(iOS 13.0, *)
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

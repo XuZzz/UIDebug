@@ -51,6 +51,7 @@ extension UIDebugable where Self : UIDebugLoadNibAble {
 
 extension UIView: UIDebugable, UIDebugLoadNibAble {}
 
+@available(iOS 13.0, *)
 struct CustomView: UIViewRepresentable {
     
     @Binding var text: String
